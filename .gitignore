@@ -1,0 +1,18 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local virtualenv (~770 MB)
+ml-env/
+
+# raw dataset: other countries + archive — download from
+# https://www.kaggle.com/datasets/datasnauk/youtube-new if needed
+data/raw/*videos.csv
+!data/raw/USvideos.csv
+data/archive.zip
+
+# SQLite cache — rebuilt by the notebook
+data/sqlite/
